@@ -68,19 +68,22 @@
 
 /// 显示成功提示，2s后自动隐藏
 + (void)showSuccess:(NSString *)message view:(UIView *)view {
-    MBProgressHUD *hud = [self createCustomViewHUD:view image:[UIImage imageNamed:@"hud_success"] message:message];
+    NSString *imageName = [NSString stringWithFormat:@"hud_success@%.fx.png", UIScreen.mainScreen.scale];
+    MBProgressHUD *hud = [self createCustomViewHUD:view image:[self loadBundleImage:imageName] message:message];
     [hud hideAnimated:true afterDelay:2];
 }
 
 /// 显示失败提示，2s后自动隐藏
 + (void)showFailure:(NSString *)message view:(UIView *)view {
-    MBProgressHUD *hud = [self createCustomViewHUD:view image:[UIImage imageNamed:@"hud_failure"] message:message];
+    NSString *imageName = [NSString stringWithFormat:@"hud_failure@%.fx.png", UIScreen.mainScreen.scale];
+    MBProgressHUD *hud = [self createCustomViewHUD:view image:[self loadBundleImage:imageName] message:message];
     [hud hideAnimated:true afterDelay:2];
 }
 
 /// 显示警告提示，2s后自动隐藏
 + (void)showWarning:(NSString *)message view:(UIView *)view {
-    MBProgressHUD *hud = [self createCustomViewHUD:view image:[UIImage imageNamed:@"hud_warning"] message:message];
+    NSString *imageName = [NSString stringWithFormat:@"hud_warning@%.fx.png", UIScreen.mainScreen.scale];
+    MBProgressHUD *hud = [self createCustomViewHUD:view image:[self loadBundleImage:imageName] message:message];
     [hud hideAnimated:true afterDelay:2];
 }
 
@@ -134,7 +137,8 @@
     NSMutableArray<UIImage *> *animationImages = [NSMutableArray arrayWithArray:images];
     if (animationImages.count == 0) {
         for (int i = 1; i <= 16; i++) {
-            [animationImages addObject:[UIImage imageNamed:[NSString stringWithFormat:@"loading_%d", i]]];
+            UIImage *img = [self loadBundleImage:[NSString stringWithFormat:@"loading_%d@2x.png", i]];
+            [animationImages addObject:img];
         }
     }
     UIImageView *customImgView = [[UIImageView alloc] init];
@@ -144,5 +148,21 @@
     [customImgView startAnimating];
     return customImgView;
 }
+
+/// 加载组件中图片
++ (UIImage *)loadBundleImage:(NSString *)imageName {
+    NSString *bundleNameWithExtension = @"ZWProgressHUD.bundle";
+    NSString * bundlePath = [[NSBundle bundleForClass:[ZWProgressHUD class]].resourcePath
+                                 stringByAppendingPathComponent:bundleNameWithExtension];
+    NSBundle *bundle = [NSBundle bundleWithPath:bundlePath];
+    UIImage *image = [UIImage imageNamed:imageName inBundle:bundle compatibleWithTraitCollection:nil];
+    if (image) {
+        return image;
+    }
+    // 如果在组件内取不到需要去主工程中取、容错处理
+    return [UIImage imageNamed:imageName];
+}
+
+
 
 @end
