@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ZWProgressHUD'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = '基于MBProgressHUD二次封装，方便调用.'
 
 # This description is used to generate tags and improve search results.
