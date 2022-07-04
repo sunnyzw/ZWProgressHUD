@@ -138,7 +138,9 @@
     if (animationImages.count == 0) {
         for (int i = 1; i <= 16; i++) {
             UIImage *img = [self loadBundleImage:[NSString stringWithFormat:@"loading_%d@2x.png", i]];
-            [animationImages addObject:img];
+            if (img) {
+                [animationImages addObject:img];
+            }
         }
     }
     UIImageView *customImgView = [[UIImageView alloc] init];
