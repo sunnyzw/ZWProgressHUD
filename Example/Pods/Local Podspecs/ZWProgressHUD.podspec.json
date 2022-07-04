@@ -19,7 +19,6 @@
     "ios": "10.0"
   },
   "source_files": "ZWProgressHUD/Classes/**/*",
-  "resources": "ZWProgressHUD/ZWProgressHUD.bundle",
   "dependencies": {
     "MBProgressHUD": [
 
