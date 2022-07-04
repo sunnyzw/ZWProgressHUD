@@ -30,6 +30,8 @@ TODO: Add long description of the pod here.
 
   # 共享的资源路径
   s.source_files     = 'ZWProgressHUD/Classes/**/*'
-#  s.resource        = 'ZWProgressHUD/ZWProgressHUD.bundle'
+  s.resource_bundles = {
+    'ZWProgressHUD' => ['ZWProgressHUD/Assets/*']
+  }
   s.dependency 'MBProgressHUD'
 end

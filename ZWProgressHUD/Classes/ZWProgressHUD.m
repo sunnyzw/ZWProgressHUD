@@ -18,18 +18,36 @@
     hud.margin = 10;
 }
 
-/// 显示自定义动画
-+ (void)showCustomAnimation:(UIView *)view {
+/// 显示默认gif动画
++ (void)showAnimation:(UIView *)view {
     MBProgressHUD *hud = [self createHUD:view message:nil mode:MBProgressHUDModeCustomView];
     hud.bezelView.backgroundColor = UIColor.clearColor;
-    hud.customView = [self createGifAnimation];
+    hud.customView = [self createGifAnimation:nil];
 }
 
-/// 显示自定义动画
-+ (void)showCustomAnimation:(UIView *)view offsetY:(CGFloat)offsetY {
+/// 显示默认gif动画，可设置偏移量
++ (void)showAnimation:(UIView *)view offsetY:(CGFloat)offsetY {
     MBProgressHUD *hud = [self createHUD:view message:nil mode:MBProgressHUDModeCustomView];
     hud.bezelView.backgroundColor = UIColor.clearColor;
-    hud.customView = [self createGifAnimation];
+    hud.customView = [self createGifAnimation:nil];
+    CGRect frame = hud.frame;
+    frame.origin.y = offsetY;
+    frame.size.height = frame.size.height - offsetY;
+    hud.frame = frame;
+}
+
+/// 显示自定义gif动画
++ (void)showCustomAnimation:(NSArray<UIImage *> *)images view:(UIView *)view {
+    MBProgressHUD *hud = [self createHUD:view message:nil mode:MBProgressHUDModeCustomView];
+    hud.bezelView.backgroundColor = UIColor.clearColor;
+    hud.customView = [self createGifAnimation:images];
+}
+
+/// 显示自定义gif动画，可设置偏移量
++ (void)showCustomAnimation:(NSArray<UIImage *> *)images view:(UIView *)view offsetY:(CGFloat)offsetY {
+    MBProgressHUD *hud = [self createHUD:view message:nil mode:MBProgressHUDModeCustomView];
+    hud.bezelView.backgroundColor = UIColor.clearColor;
+    hud.customView = [self createGifAnimation:images];
     CGRect frame = hud.frame;
     frame.origin.y = offsetY;
     frame.size.height = frame.size.height - offsetY;
@@ -42,21 +60,27 @@
     [hud hideAnimated:true afterDelay:2];
 }
 
+/// 显示自定义图片提示，2s后自动隐藏
++ (void)showCustomImage:(UIImage *)image message:(NSString *)message view:(UIView *)view {
+    MBProgressHUD *hud = [self createCustomViewHUD:view image:image message:message];
+    [hud hideAnimated:true afterDelay:2];
+}
+
 /// 显示成功提示，2s后自动隐藏
 + (void)showSuccess:(NSString *)message view:(UIView *)view {
-    MBProgressHUD *hud = [self createCustomViewHUD:view imageName:@"" message:message];
+    MBProgressHUD *hud = [self createCustomViewHUD:view image:[UIImage imageNamed:@"hud_success"] message:message];
     [hud hideAnimated:true afterDelay:2];
 }
 
 /// 显示失败提示，2s后自动隐藏
 + (void)showFailure:(NSString *)message view:(UIView *)view {
-    MBProgressHUD *hud = [self createCustomViewHUD:view imageName:@"" message:message];
+    MBProgressHUD *hud = [self createCustomViewHUD:view image:[UIImage imageNamed:@"hud_failure"] message:message];
     [hud hideAnimated:true afterDelay:2];
 }
 
 /// 显示警告提示，2s后自动隐藏
 + (void)showWarning:(NSString *)message view:(UIView *)view {
-    MBProgressHUD *hud = [self createCustomViewHUD:view imageName:@"" message:message];
+    MBProgressHUD *hud = [self createCustomViewHUD:view image:[UIImage imageNamed:@"hud_warning"] message:message];
     [hud hideAnimated:true afterDelay:2];
 }
 
@@ -98,18 +122,20 @@
 }
 
 /// 创建自定义视图 HUD
-+ (MBProgressHUD *)createCustomViewHUD:(UIView *)view imageName:(NSString *)imageName message:(NSString *)message {
++ (MBProgressHUD *)createCustomViewHUD:(UIView *)view image:(UIImage *)image message:(NSString *)message {
     MBProgressHUD *hud = [self createHUD:view message:message mode:MBProgressHUDModeCustomView];
-    hud.customView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:imageName]];
+    hud.customView = [[UIImageView alloc] initWithImage:image];
     hud.animationType = MBProgressHUDAnimationZoomOut;
     return hud;
 }
 
 /// 创建自定义Gif动画
-+ (UIImageView *)createGifAnimation {
-    NSMutableArray<UIImage *> *animationImages = [[NSMutableArray alloc] init];
-    for (int i = 0; i < 10; i++) {
-        [animationImages addObject:[UIImage imageNamed:[NSString stringWithFormat:@"animation_%d", i]]];
++ (UIImageView *)createGifAnimation:(NSArray<UIImage *> *)images {
+    NSMutableArray<UIImage *> *animationImages = [NSMutableArray arrayWithArray:images];
+    if (animationImages.count == 0) {
+        for (int i = 1; i <= 16; i++) {
+            [animationImages addObject:[UIImage imageNamed:[NSString stringWithFormat:@"loading_%d", i]]];
+        }
     }
     UIImageView *customImgView = [[UIImageView alloc] init];
     customImgView.animationImages = animationImages;
