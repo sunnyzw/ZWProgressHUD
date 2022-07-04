@@ -161,10 +161,7 @@
     if (image) {
         return image;
     }
-    // 如果在组件内取不到需要去主工程中取、容错处理
     return [UIImage imageNamed:imageName];
 }
-
-
 
 @end
