@@ -22,7 +22,7 @@ pod 'ZWProgressHUD'
 
 ## Author
 
-sunnyzw, sunzhiwei@5i5j.com
+sunnyzw, sunny_szw@163.com
 
 ## License
 

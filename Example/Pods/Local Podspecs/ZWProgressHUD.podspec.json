@@ -1,0 +1,28 @@
+{
+  "name": "ZWProgressHUD",
+  "version": "0.1.0",
+  "summary": "基于MBProgressHUD二次封装，方便调用.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/sunnyzw/ZWProgressHUD",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Sunny": "sunny_szw@163.com"
+  },
+  "source": {
+    "git": "https://github.com/sunnyzw/ZWProgressHUD.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "ZWProgressHUD/Classes/**/*",
+  "resources": "ZWProgressHUD/ZWProgressHUD.bundle",
+  "dependencies": {
+    "MBProgressHUD": [
+
+    ]
+  }
+}

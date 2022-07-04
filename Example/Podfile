@@ -1,13 +1,16 @@
+source 'https://mirrors.tuna.tsinghua.edu.cn/git/CocoaPods/Specs.git'
+
 use_frameworks!
 
 platform :ios, '10.0'
 
 target 'ZWProgressHUD_Example' do
   pod 'ZWProgressHUD', :path => '../'
+  
+  # 添加其他依赖的组件
+  pod 'MBProgressHUD'
 
   target 'ZWProgressHUD_Tests' do
     inherit! :search_paths
-
-    pod 'FBSnapshotTestCase'
   end
 end

@@ -2,8 +2,8 @@
 //  ZWAppDelegate.m
 //  ZWProgressHUD
 //
-//  Created by sunnyzw on 07/04/2022.
-//  Copyright (c) 2022 sunnyzw. All rights reserved.
+//  Created by Sunny on 07/04/2022.
+//  Copyright (c) 2022 Sunny. All rights reserved.
 //
 
 #import "ZWAppDelegate.h"
