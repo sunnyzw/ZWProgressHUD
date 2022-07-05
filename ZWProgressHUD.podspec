@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ZWProgressHUD'
-  s.version          = '0.1.2'
+  s.version          = '1.0.0'
   s.summary          = '基于MBProgressHUD二次封装，方便调用.'
 
 # This description is used to generate tags and improve search results.
@@ -31,7 +31,7 @@ TODO: Add long description of the pod here.
   # 共享的资源路径
   s.source_files     = 'ZWProgressHUD/Classes/**/*'
   s.resource_bundles = {
-    'ZWProgressHUD' => ['ZWProgressHUD/Assets/**/*']
+    'ZWProgressHUD' => ['ZWProgressHUD/Assets/**/*.{png,jpg}']
   }
   s.dependency 'MBProgressHUD'
 end

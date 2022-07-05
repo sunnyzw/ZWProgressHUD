@@ -8,160 +8,156 @@
 
 /* Begin PBXBuildFile section */
 		0097064E7F7D3F413161738CC5C25EEC /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 67C8787AEF5F8F4CCDD782A64D078427 /* MBProgressHUD.m */; };
-		0A9FE213774D934FA45629AE09834B24 /* hud_warning@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 09B63757C0B57C84DBEA5E1D846177F7 /* hud_warning@3x.png */; };
 		0AA33EBB857A5205F87C09CCB99EAC74 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB342FF58CA5A5D1282C84E02280A34F /* Foundation.framework */; };
-		1336016CC37CB8E559202350D0991BE0 /* loading_1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 258E750703F504EB53A0372E8148A8D0 /* loading_1@2x.png */; };
-		1774D5E4900A675C71889243535CDA38 /* ZWProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 641243C454214C06D644F2135611CE48 /* ZWProgressHUD.m */; };
+		1774D5E4900A675C71889243535CDA38 /* ZWProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D625404CB240071C0041C754F550F19 /* ZWProgressHUD.m */; };
 		1B61090AB2A95515734AFD049E946219 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB342FF58CA5A5D1282C84E02280A34F /* Foundation.framework */; };
-		1BA0C96F7CAB3C3EB16F2BDD0F5CB89A /* loading_5@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0DFB5153AD877DC48097530F419A4A7D /* loading_5@2x.png */; };
+		1F0343D1328FC24C8AE7B1351F81B83D /* loading_15@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0494D17F4710B70E1FC1AA4D409E3F77 /* loading_15@2x.png */; };
 		2AB961C78C53E2B99C2F62AFAE9F3360 /* Pods-ZWProgressHUD_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B02D8FE795D7518F24DBE4EBA12C8A9 /* Pods-ZWProgressHUD_Example-dummy.m */; };
-		2B159CF337674A6F7FB1BF361E035510 /* hud_warning@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3AFE12B3F4F335E5BAA4EE5B7FADFA53 /* hud_warning@2x.png */; };
-		32CBB9A58A337F53CAC52CD28D2DC0A0 /* loading_15@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 696830E77C8494E69D24CC0C36BAEC1E /* loading_15@2x.png */; };
+		2CFC6304B371FECF1CE5402EBEF4EBA6 /* loading_8@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 88B995DD0E469C2ABE2535864CA2B192 /* loading_8@2x.png */; };
+		2FD586E850558DDB35D59D4BFABEAAE7 /* loading_6@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EEFE514E17EA39573A8603D5DF9784F1 /* loading_6@2x.png */; };
+		37FFD3081920BA410A133DD68BFBF0FE /* loading_2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 49DDC3C925CD4C3536F859CE151D5D82 /* loading_2@2x.png */; };
 		3A5242805A875C40A5F6ED1E30333909 /* Pods-ZWProgressHUD_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AFFBB871C38016606BAEDE8D54BF8DC7 /* Pods-ZWProgressHUD_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4B1A23DC1EC5C629BEE102D2AED77BA3 /* Pods-ZWProgressHUD_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E6D7EC41C404A8D53284017B57BE697 /* Pods-ZWProgressHUD_Tests-dummy.m */; };
-		4F8A3841917127F51ABC07FE20C80A26 /* loading_11@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 39D75FD05C2A80EB79FB3D8113ECBD1E /* loading_11@2x.png */; };
 		58C91B4AB36E6B16421106CA634C58EF /* MBProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ECF19F2C17178E7145FE1DBF7DE5B7D /* MBProgressHUD-dummy.m */; };
 		5BAC1EF86D0E57E44E404B2796993561 /* MBProgressHUD-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F31C808188F0318B8D5A16F065156F9 /* MBProgressHUD-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E5E779AC46101A86F34CFE867647D7D /* loading_7@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A2ECED585B2241F7750E0C6F52EBE0A /* loading_7@2x.png */; };
+		6775193328C1DD500FC470FDC46977EB /* loading_1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D076C9FEF84B0B131B1FDCEF7E546753 /* loading_1@2x.png */; };
 		67E941CADB3CDDEEDF8CE4EE4A4A05BB /* MBProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = FC7C54894F0D982511B53767CE31EBF1 /* MBProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6A5903A637D6C560FDA82A4BD9F1D2F0 /* loading_14@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C9786AC9F5456BF5316480CE925A0F2C /* loading_14@2x.png */; };
 		6B2A8049230ABA6E127CA205F30EFFAA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB342FF58CA5A5D1282C84E02280A34F /* Foundation.framework */; };
-		72339481288B929F37FCC34A0542BA86 /* loading_7@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D732B0A902929EA7E9B3F063BBFF9B15 /* loading_7@2x.png */; };
-		82521BF6001AFFB2D820CEAA1AB4666F /* loading_4@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 14C7F54EBF2843D7551CC2A00215646A /* loading_4@2x.png */; };
-		8B010B86E05C65FB26EF03BE7BF9EF75 /* loading_6@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A89C7AC90C012AD4F6E485321F9B4A21 /* loading_6@2x.png */; };
-		8CD5FA4350B3DC3E305D040F9ADB95EB /* hud_success@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FC280EF56B1A0011863F4E35D15AE65A /* hud_success@2x.png */; };
-		93C18EAD158131EC97451772F628CDA3 /* HUD in Resources */ = {isa = PBXBuildFile; fileRef = 7CDEBE8272FE864DCF878A798E5DC7E7 /* HUD */; };
-		A7463E2A5708CCEF6565355BC44D03C6 /* ZWProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 71C46619B04B0CF7183AD2D0853373EA /* ZWProgressHUD-dummy.m */; };
-		AFA3F8B4CAC3AA1B79CFCB2ECF154E3B /* loading_3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FB2718287E7B3B5F9A70FF47A971EF5F /* loading_3@2x.png */; };
+		6EBFC531B01E8775CAAFF1F17B60650B /* hud_success@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 470E77D35F4AE940FF59F6D7395FFF37 /* hud_success@2x.png */; };
+		76B6C891A7991B3B681822D76045EC13 /* loading_5@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F551698590CEBB36E3AED662CC23D3DD /* loading_5@2x.png */; };
+		777506B8D1FD039BB0EEDCEA294BD372 /* loading_9@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DB21755AA14B1ECA5080FD5D2C990D82 /* loading_9@2x.png */; };
+		8BDC84FCE7678BF7AEB3EE7246D7CDB0 /* loading_10@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C98D2FB8D20C3704E32C2A7317EF1DB3 /* loading_10@2x.png */; };
+		8E2EE927D2327794F627AAEF28B8A7AA /* hud_warning@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 32B752C1F1C0F7C9FDE7DAF2FF62145F /* hud_warning@3x.png */; };
+		A7463E2A5708CCEF6565355BC44D03C6 /* ZWProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FA203C0A3314602324B3635535A8602F /* ZWProgressHUD-dummy.m */; };
+		AE74DB756A99EC8CAFDC01F50E658D4D /* hud_warning@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 433068553F63442D9D35A550D7D0CE57 /* hud_warning@2x.png */; };
+		AF65E30D959C4C330EA5B3BBBAF6C144 /* hud_failure@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 03E5A432E9A5491274CDD9BFAF2B127B /* hud_failure@2x.png */; };
 		AFAC1D4EBD53A048346210536741DF13 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CABB98090B02C131F86931CB9BE54B7A /* CoreGraphics.framework */; };
-		B101CF791A138B7C5F59DA5BCFAD8B65 /* loading_13@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C4ABB96084F3624CAA0FC51F9C06F9AF /* loading_13@2x.png */; };
+		B33F9CAD5E2A45C2F953A51AE845B44E /* loading_4@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 05D56C3E1063C4E90A71458BF480D0C0 /* loading_4@2x.png */; };
 		B52177FF72FDAC3EDB7195DE98F5501E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51AB40693B18F443F75126966ED13E47 /* QuartzCore.framework */; };
 		B9F51F739D23DDCA0F43B4AFF6A29FE8 /* ZWProgressHUD-ZWProgressHUD in Resources */ = {isa = PBXBuildFile; fileRef = 05EBB599AE9F60F821D48BF1392C78E1 /* ZWProgressHUD-ZWProgressHUD */; };
-		BEA1A917533B0E326621F1DFA1CFC08D /* loading_8@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FAD4D2048D5BCD5BAF54AA5C0194A0F9 /* loading_8@2x.png */; };
-		C6BE088DFD4C326602B4739D27AF6591 /* loading_12@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 953AA4830D58AAE90B897F81C0BB810B /* loading_12@2x.png */; };
-		CD8575C934BD2C6F1723D4842ACAC8A9 /* hud_success@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BD273E1AB5E8FDF5415A48565B63F57A /* hud_success@3x.png */; };
-		D18001FB5BF9831CCFFB37E89A79BAD5 /* loading_2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 45E965534461ED7CB11D1C173EB8D349 /* loading_2@2x.png */; };
-		D5B87A5F785A576A862BDF0F0A16C819 /* loading_9@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D30F4FB2D1034CF7C731C78034B3D7AE /* loading_9@2x.png */; };
-		D8FB0BB799E3028266CBBBDB42CE28C0 /* ZWProgressHUD-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6924DA43DF71798453CA26B6282C5983 /* ZWProgressHUD-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E2B44C3106AFB1BA457A3EB83EED529E /* ZWProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = E74B1CDEA03E5A6ECD33454AFBC9951E /* ZWProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E3E89393DE451D4C3294E5C3A292BF9E /* hud_failure@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B4D083F7FC9D8276FCA288FE951427D /* hud_failure@3x.png */; };
-		E8C0C6E738C95B12B283AD0735E2CB35 /* loading_14@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 477D107442CD81C10F7167040F96F812 /* loading_14@2x.png */; };
-		E8D54D4BEDA6B143AEA9D86FC65BA77F /* loading_16@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7BFE05BB03DD5C14897F2DC6247A51F5 /* loading_16@2x.png */; };
-		E93AC8EA8AB208ECFD2F7279603F053B /* hud_failure@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F7D742EFB0D8862198A178FADBAFA2A /* hud_failure@2x.png */; };
-		EAA5F0F0E7235232517223C8E213AFF9 /* Loading in Resources */ = {isa = PBXBuildFile; fileRef = 59A30346DE1A683614D007BC17BF94B2 /* Loading */; };
+		BCDB66D60FD844EFEE9D07C8B8A66C56 /* loading_3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BB091C6DF4BF6D3291020956AD023FC1 /* loading_3@2x.png */; };
+		C187173CCC76E6C9E1701494A9AF8D6F /* hud_success@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D214F4BDD912F937CE5BFD43E93E37A /* hud_success@3x.png */; };
+		C2B243C47D92ACCC232F051A5A76E6EC /* loading_13@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9931F9B6B6E647A013F4F1A2F39266A1 /* loading_13@2x.png */; };
+		CFB5D913352EC2BECD05754C2C13E335 /* loading_16@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 78C3147D2FC171A5128452A6DFBBE252 /* loading_16@2x.png */; };
+		D8FB0BB799E3028266CBBBDB42CE28C0 /* ZWProgressHUD-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D73477A8921BF96BD96F482E64FC2AD /* ZWProgressHUD-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DF705978DFEFA9AC6BDDF4D8D6274260 /* loading_11@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DC49344956C37D34B4C6F1A83D10BDBD /* loading_11@2x.png */; };
+		E2B44C3106AFB1BA457A3EB83EED529E /* ZWProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 65CC26A2F8EA61382F33F05AF3C890B8 /* ZWProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E93D67E2E33AB9E6DC34BB99A851A427 /* hud_failure@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = DB0A95D1CC07981A7D48814FBDB811A0 /* hud_failure@3x.png */; };
 		F087DF46D6CD2A6054674E43C924D319 /* Pods-ZWProgressHUD_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0902F50EBDFD53C9556FA8BF9A4B1FEE /* Pods-ZWProgressHUD_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F3A14F1B7A96CCF76F2D5FDD0D351F17 /* loading_10@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E310ACD40D7713E5A81644EC0495D2B7 /* loading_10@2x.png */; };
+		F63634A572527E0C7A23AF5F0CA9EAD0 /* loading_12@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B39A49AC9DE58807E69FE32A11F8FDB /* loading_12@2x.png */; };
 		F8F3EA0A574E0B4C7E956542214FF4DF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB342FF58CA5A5D1282C84E02280A34F /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		1CFA18CFFF567B5F3E9BF159F8479163 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 245CE2F88B214292903665423317DF79;
-			remoteInfo = ZWProgressHUD;
-		};
-		4B63BAF86FE216381C4036BA8E5EB4FC /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 740661DFF8AE1ECD68332F399FC794CF;
-			remoteInfo = "Pods-ZWProgressHUD_Example";
-		};
-		9EA2F1C3636DF5FCA776A16C57622D26 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 82B0A41D3031FF27D78E17B0A9A46FB0;
-			remoteInfo = MBProgressHUD;
-		};
-		B6238E21370347E66F248360A2CFDCE4 /* PBXContainerItemProxy */ = {
+		078CB2335F81389D23E620CD2838A928 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = E5950D6A031A7AC21FA7CA5FD623A401;
 			remoteInfo = "ZWProgressHUD-ZWProgressHUD";
 		};
-		F3CEB708601F74E01A9E6EF74D8A5DB5 /* PBXContainerItemProxy */ = {
+		5FFC0C1E002617A6065984B9FFCCB7B7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 82B0A41D3031FF27D78E17B0A9A46FB0;
 			remoteInfo = MBProgressHUD;
 		};
+		C7821C4F298AB3FECE3F1EE90E96241F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 82B0A41D3031FF27D78E17B0A9A46FB0;
+			remoteInfo = MBProgressHUD;
+		};
+		CBD6D2A5C3167D2480AF630EFB29FE6B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 245CE2F88B214292903665423317DF79;
+			remoteInfo = ZWProgressHUD;
+		};
+		DC2D6DBA14FCE00A8FD3D876DF7FD7A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 740661DFF8AE1ECD68332F399FC794CF;
+			remoteInfo = "Pods-ZWProgressHUD_Example";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		03E5A432E9A5491274CDD9BFAF2B127B /* hud_failure@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "hud_failure@2x.png"; sourceTree = "<group>"; };
+		0494D17F4710B70E1FC1AA4D409E3F77 /* loading_15@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "loading_15@2x.png"; sourceTree = "<group>"; };
+		05D56C3E1063C4E90A71458BF480D0C0 /* loading_4@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "loading_4@2x.png"; sourceTree = "<group>"; };
 		05EBB599AE9F60F821D48BF1392C78E1 /* ZWProgressHUD-ZWProgressHUD */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "ZWProgressHUD-ZWProgressHUD"; path = ZWProgressHUD.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		06E4A69061DD3193BA1D923BAC4B657F /* Pods-ZWProgressHUD_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZWProgressHUD_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		0902F50EBDFD53C9556FA8BF9A4B1FEE /* Pods-ZWProgressHUD_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZWProgressHUD_Example-umbrella.h"; sourceTree = "<group>"; };
-		09B63757C0B57C84DBEA5E1D846177F7 /* hud_warning@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "hud_warning@3x.png"; sourceTree = "<group>"; };
-		0DFB5153AD877DC48097530F419A4A7D /* loading_5@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "loading_5@2x.png"; sourceTree = "<group>"; };
-		14C7F54EBF2843D7551CC2A00215646A /* loading_4@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "loading_4@2x.png"; sourceTree = "<group>"; };
-		1B4D083F7FC9D8276FCA288FE951427D /* hud_failure@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "hud_failure@3x.png"; sourceTree = "<group>"; };
+		178F91AAB9331AA73ACC566C31B64F4A /* ZWProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZWProgressHUD-prefix.pch"; sourceTree = "<group>"; };
 		1C0DB3FC34B180B25F06E0D2B46B7DB3 /* Pods-ZWProgressHUD_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ZWProgressHUD_Example.modulemap"; sourceTree = "<group>"; };
 		1D08B9C6C3123E2B538D22CE0ABC9212 /* Pods-ZWProgressHUD_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ZWProgressHUD_Tests.modulemap"; sourceTree = "<group>"; };
-		258E750703F504EB53A0372E8148A8D0 /* loading_1@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "loading_1@2x.png"; sourceTree = "<group>"; };
-		39D75FD05C2A80EB79FB3D8113ECBD1E /* loading_11@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "loading_11@2x.png"; sourceTree = "<group>"; };
-		3AFE12B3F4F335E5BAA4EE5B7FADFA53 /* hud_warning@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "hud_warning@2x.png"; sourceTree = "<group>"; };
+		32B752C1F1C0F7C9FDE7DAF2FF62145F /* hud_warning@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "hud_warning@3x.png"; sourceTree = "<group>"; };
+		3A2ECED585B2241F7750E0C6F52EBE0A /* loading_7@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "loading_7@2x.png"; sourceTree = "<group>"; };
+		3B39A49AC9DE58807E69FE32A11F8FDB /* loading_12@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "loading_12@2x.png"; sourceTree = "<group>"; };
 		3E6D7EC41C404A8D53284017B57BE697 /* Pods-ZWProgressHUD_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZWProgressHUD_Tests-dummy.m"; sourceTree = "<group>"; };
-		45E965534461ED7CB11D1C173EB8D349 /* loading_2@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "loading_2@2x.png"; sourceTree = "<group>"; };
-		477D107442CD81C10F7167040F96F812 /* loading_14@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "loading_14@2x.png"; sourceTree = "<group>"; };
-		487A3521B09832E91039C76785876C86 /* ResourceBundle-ZWProgressHUD-ZWProgressHUD-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-ZWProgressHUD-ZWProgressHUD-Info.plist"; sourceTree = "<group>"; };
+		433068553F63442D9D35A550D7D0CE57 /* hud_warning@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "hud_warning@2x.png"; sourceTree = "<group>"; };
+		470E77D35F4AE940FF59F6D7395FFF37 /* hud_success@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "hud_success@2x.png"; sourceTree = "<group>"; };
 		48A19A2D47C70EF9E8A8EDA8AD49AF54 /* Pods-ZWProgressHUD_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZWProgressHUD_Tests-Info.plist"; sourceTree = "<group>"; };
+		49DDC3C925CD4C3536F859CE151D5D82 /* loading_2@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "loading_2@2x.png"; sourceTree = "<group>"; };
 		4ECF19F2C17178E7145FE1DBF7DE5B7D /* MBProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD-dummy.m"; sourceTree = "<group>"; };
 		51AB40693B18F443F75126966ED13E47 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
 		53025FD44EEDEB9CEAE854B0AE31CB82 /* MBProgressHUD-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MBProgressHUD-Info.plist"; sourceTree = "<group>"; };
-		59A30346DE1A683614D007BC17BF94B2 /* Loading */ = {isa = PBXFileReference; includeInIndex = 1; name = Loading; path = ZWProgressHUD/Assets/Loading; sourceTree = "<group>"; };
+		587D8F0A2D43774470EE67162FFE5618 /* ResourceBundle-ZWProgressHUD-ZWProgressHUD-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-ZWProgressHUD-ZWProgressHUD-Info.plist"; sourceTree = "<group>"; };
+		5D214F4BDD912F937CE5BFD43E93E37A /* hud_success@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "hud_success@3x.png"; sourceTree = "<group>"; };
 		5E221A5AAC45302AF396416395265FFD /* MBProgressHUD.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MBProgressHUD.debug.xcconfig; sourceTree = "<group>"; };
 		5E8552A6A0F665881AA7A5084A684127 /* Pods-ZWProgressHUD_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZWProgressHUD_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		5F31C808188F0318B8D5A16F065156F9 /* MBProgressHUD-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD-umbrella.h"; sourceTree = "<group>"; };
-		641243C454214C06D644F2135611CE48 /* ZWProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZWProgressHUD.m; path = ZWProgressHUD/Classes/ZWProgressHUD.m; sourceTree = "<group>"; };
-		649CC3915F631CE936220D36EF89B19B /* ZWProgressHUD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ZWProgressHUD.modulemap; sourceTree = "<group>"; };
+		6166DC5298F26D1A78B1369076D9A8E4 /* ZWProgressHUD.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZWProgressHUD.release.xcconfig; sourceTree = "<group>"; };
+		65CC26A2F8EA61382F33F05AF3C890B8 /* ZWProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZWProgressHUD.h; path = ZWProgressHUD/Classes/ZWProgressHUD.h; sourceTree = "<group>"; };
+		6741A1EB4E1AC3E9934EAEAA73E02C62 /* ZWProgressHUD-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ZWProgressHUD-Info.plist"; sourceTree = "<group>"; };
 		67C8787AEF5F8F4CCDD782A64D078427 /* MBProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
-		6924DA43DF71798453CA26B6282C5983 /* ZWProgressHUD-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZWProgressHUD-umbrella.h"; sourceTree = "<group>"; };
-		696830E77C8494E69D24CC0C36BAEC1E /* loading_15@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "loading_15@2x.png"; sourceTree = "<group>"; };
 		6AFDBFDCDB9682B81FE4F256C4B9A95D /* Pods-ZWProgressHUD_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZWProgressHUD_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		6CEB62E30C5BAB8D4A2A435A4D4DA33A /* MBProgressHUD.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MBProgressHUD.release.xcconfig; sourceTree = "<group>"; };
+		711FA91E7DEAC4644E269C9469B920F5 /* ZWProgressHUD.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZWProgressHUD.debug.xcconfig; sourceTree = "<group>"; };
 		71586C258C9A4BA21A453C698866EBC7 /* MBProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD-prefix.pch"; sourceTree = "<group>"; };
-		71C46619B04B0CF7183AD2D0853373EA /* ZWProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZWProgressHUD-dummy.m"; sourceTree = "<group>"; };
+		78C3147D2FC171A5128452A6DFBBE252 /* loading_16@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "loading_16@2x.png"; sourceTree = "<group>"; };
 		7ABF184B345D657FF83AA23D3CF6CED6 /* Pods-ZWProgressHUD_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZWProgressHUD_Example.release.xcconfig"; sourceTree = "<group>"; };
-		7BFE05BB03DD5C14897F2DC6247A51F5 /* loading_16@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "loading_16@2x.png"; sourceTree = "<group>"; };
-		7CDEBE8272FE864DCF878A798E5DC7E7 /* HUD */ = {isa = PBXFileReference; includeInIndex = 1; name = HUD; path = ZWProgressHUD/Assets/HUD; sourceTree = "<group>"; };
-		7EF421D98AD050DF62A0CC0D80085CAB /* ZWProgressHUD-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ZWProgressHUD-Info.plist"; sourceTree = "<group>"; };
-		7F7D742EFB0D8862198A178FADBAFA2A /* hud_failure@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "hud_failure@2x.png"; sourceTree = "<group>"; };
+		7D73477A8921BF96BD96F482E64FC2AD /* ZWProgressHUD-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZWProgressHUD-umbrella.h"; sourceTree = "<group>"; };
 		8555A6701488398CF450F2C4F0A007F5 /* Pods-ZWProgressHUD_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZWProgressHUD_Example-Info.plist"; sourceTree = "<group>"; };
+		88B995DD0E469C2ABE2535864CA2B192 /* loading_8@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "loading_8@2x.png"; sourceTree = "<group>"; };
 		8A12EFF49A3C32C01014E57135F46080 /* Pods-ZWProgressHUD_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZWProgressHUD_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		8B02D8FE795D7518F24DBE4EBA12C8A9 /* Pods-ZWProgressHUD_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZWProgressHUD_Example-dummy.m"; sourceTree = "<group>"; };
 		8B17EA454D9E20251E4E432AAA7410D6 /* Pods-ZWProgressHUD_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-ZWProgressHUD_Example"; path = Pods_ZWProgressHUD_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B8FAB0D627B17EDE1366984278705D9 /* MBProgressHUD */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MBProgressHUD; path = MBProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		953AA4830D58AAE90B897F81C0BB810B /* loading_12@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "loading_12@2x.png"; sourceTree = "<group>"; };
+		8D625404CB240071C0041C754F550F19 /* ZWProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZWProgressHUD.m; path = ZWProgressHUD/Classes/ZWProgressHUD.m; sourceTree = "<group>"; };
+		9931F9B6B6E647A013F4F1A2F39266A1 /* loading_13@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "loading_13@2x.png"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9FD28E7C8ADDA72D93391CF679C2930D /* Pods-ZWProgressHUD_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZWProgressHUD_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		A77F41AA4DB24EDA387BAF826904D1DF /* Pods-ZWProgressHUD_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZWProgressHUD_Example-frameworks.sh"; sourceTree = "<group>"; };
-		A89C7AC90C012AD4F6E485321F9B4A21 /* loading_6@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "loading_6@2x.png"; sourceTree = "<group>"; };
+		AA10F477C3E47F71F857A6DFEFA5BB03 /* ZWProgressHUD.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ZWProgressHUD.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		AFFBB871C38016606BAEDE8D54BF8DC7 /* Pods-ZWProgressHUD_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZWProgressHUD_Tests-umbrella.h"; sourceTree = "<group>"; };
 		B9C810438AE7E3AA1A3286B7AA0AB587 /* ZWProgressHUD */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ZWProgressHUD; path = ZWProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BB114FD9CA55F4FCB39CFE6ADFFE5BB6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		BC0F5811025B87DB0FB920BCCE180BC5 /* ZWProgressHUD.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZWProgressHUD.debug.xcconfig; sourceTree = "<group>"; };
-		BD273E1AB5E8FDF5415A48565B63F57A /* hud_success@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "hud_success@3x.png"; sourceTree = "<group>"; };
-		C3F18231074AD72B3042A96A0975760A /* ZWProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZWProgressHUD-prefix.pch"; sourceTree = "<group>"; };
-		C4ABB96084F3624CAA0FC51F9C06F9AF /* loading_13@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "loading_13@2x.png"; sourceTree = "<group>"; };
+		BB091C6DF4BF6D3291020956AD023FC1 /* loading_3@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "loading_3@2x.png"; sourceTree = "<group>"; };
+		BF712AA1DEDDE6C388CF876A60FB11E4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		C9786AC9F5456BF5316480CE925A0F2C /* loading_14@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "loading_14@2x.png"; sourceTree = "<group>"; };
+		C98D2FB8D20C3704E32C2A7317EF1DB3 /* loading_10@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "loading_10@2x.png"; sourceTree = "<group>"; };
 		CABB98090B02C131F86931CB9BE54B7A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		CB0FAB061549BBB419B606BFC6B299CA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		CB342FF58CA5A5D1282C84E02280A34F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		CDD033BA66AC1B2E0938186A0ECA4EB2 /* Pods-ZWProgressHUD_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZWProgressHUD_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		D30F4FB2D1034CF7C731C78034B3D7AE /* loading_9@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "loading_9@2x.png"; sourceTree = "<group>"; };
+		CF38D472A143517B59515F7E820E53CC /* ZWProgressHUD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ZWProgressHUD.modulemap; sourceTree = "<group>"; };
+		D076C9FEF84B0B131B1FDCEF7E546753 /* loading_1@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "loading_1@2x.png"; sourceTree = "<group>"; };
 		D70DB1949F7391425EB7DB5AABFDF878 /* Pods-ZWProgressHUD_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZWProgressHUD_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		D732B0A902929EA7E9B3F063BBFF9B15 /* loading_7@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "loading_7@2x.png"; sourceTree = "<group>"; };
-		E0A56B8ACE5302673FF5413310CA4B84 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		DB0A95D1CC07981A7D48814FBDB811A0 /* hud_failure@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "hud_failure@3x.png"; sourceTree = "<group>"; };
+		DB21755AA14B1ECA5080FD5D2C990D82 /* loading_9@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "loading_9@2x.png"; sourceTree = "<group>"; };
+		DC49344956C37D34B4C6F1A83D10BDBD /* loading_11@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "loading_11@2x.png"; sourceTree = "<group>"; };
 		E151425C97D9827E9DF5575A3584BF26 /* Pods-ZWProgressHUD_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-ZWProgressHUD_Tests"; path = Pods_ZWProgressHUD_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E310ACD40D7713E5A81644EC0495D2B7 /* loading_10@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "loading_10@2x.png"; sourceTree = "<group>"; };
-		E74B1CDEA03E5A6ECD33454AFBC9951E /* ZWProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZWProgressHUD.h; path = ZWProgressHUD/Classes/ZWProgressHUD.h; sourceTree = "<group>"; };
-		F1217B3EFA38731EBFF722B016A391DB /* ZWProgressHUD.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ZWProgressHUD.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		EEFE514E17EA39573A8603D5DF9784F1 /* loading_6@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "loading_6@2x.png"; sourceTree = "<group>"; };
 		F1A0E508679ED342B4AEDF1866C001EB /* MBProgressHUD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MBProgressHUD.modulemap; sourceTree = "<group>"; };
-		F67F9424949E291D1E9884523A63555E /* ZWProgressHUD.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZWProgressHUD.release.xcconfig; sourceTree = "<group>"; };
-		FAD4D2048D5BCD5BAF54AA5C0194A0F9 /* loading_8@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "loading_8@2x.png"; sourceTree = "<group>"; };
-		FB2718287E7B3B5F9A70FF47A971EF5F /* loading_3@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "loading_3@2x.png"; sourceTree = "<group>"; };
-		FC280EF56B1A0011863F4E35D15AE65A /* hud_success@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "hud_success@2x.png"; sourceTree = "<group>"; };
+		F551698590CEBB36E3AED662CC23D3DD /* loading_5@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "loading_5@2x.png"; sourceTree = "<group>"; };
+		FA203C0A3314602324B3635535A8602F /* ZWProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZWProgressHUD-dummy.m"; sourceTree = "<group>"; };
 		FC7C54894F0D982511B53767CE31EBF1 /* MBProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -174,7 +170,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5C50969E24CF31852249579D4775868E /* Frameworks */ = {
+		7109F955A68F97F1FC9B78431DD9C939 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -218,20 +214,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		07BFF478DAE9EFB096A5D49FF47317D9 /* HUD */ = {
-			isa = PBXGroup;
-			children = (
-				7F7D742EFB0D8862198A178FADBAFA2A /* hud_failure@2x.png */,
-				1B4D083F7FC9D8276FCA288FE951427D /* hud_failure@3x.png */,
-				FC280EF56B1A0011863F4E35D15AE65A /* hud_success@2x.png */,
-				BD273E1AB5E8FDF5415A48565B63F57A /* hud_success@3x.png */,
-				3AFE12B3F4F335E5BAA4EE5B7FADFA53 /* hud_warning@2x.png */,
-				09B63757C0B57C84DBEA5E1D846177F7 /* hud_warning@3x.png */,
-			);
-			name = HUD;
-			path = ZWProgressHUD/Assets/HUD;
-			sourceTree = "<group>";
-		};
 		14F4764772413062CCBBBBBC131F7AC8 /* Pods-ZWProgressHUD_Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -249,36 +231,18 @@
 			path = "Target Support Files/Pods-ZWProgressHUD_Example";
 			sourceTree = "<group>";
 		};
-		2D70CB065B5732B85BA962E9A1D98B86 /* ZWProgressHUD */ = {
+		229D54B90C881D40252FD3BED16953DC /* HUD */ = {
 			isa = PBXGroup;
 			children = (
-				7CDEBE8272FE864DCF878A798E5DC7E7 /* HUD */,
-				59A30346DE1A683614D007BC17BF94B2 /* Loading */,
-				E74B1CDEA03E5A6ECD33454AFBC9951E /* ZWProgressHUD.h */,
-				641243C454214C06D644F2135611CE48 /* ZWProgressHUD.m */,
-				07BFF478DAE9EFB096A5D49FF47317D9 /* HUD */,
-				48856FD9ABB6E287F09024C16F3049C1 /* Loading */,
-				7940126493FCD448DD38E3D4D7869B5E /* Pod */,
-				365F16D6B09D56C2B1AB4163032DBAE6 /* Support Files */,
+				03E5A432E9A5491274CDD9BFAF2B127B /* hud_failure@2x.png */,
+				DB0A95D1CC07981A7D48814FBDB811A0 /* hud_failure@3x.png */,
+				470E77D35F4AE940FF59F6D7395FFF37 /* hud_success@2x.png */,
+				5D214F4BDD912F937CE5BFD43E93E37A /* hud_success@3x.png */,
+				433068553F63442D9D35A550D7D0CE57 /* hud_warning@2x.png */,
+				32B752C1F1C0F7C9FDE7DAF2FF62145F /* hud_warning@3x.png */,
 			);
-			name = ZWProgressHUD;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		365F16D6B09D56C2B1AB4163032DBAE6 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				487A3521B09832E91039C76785876C86 /* ResourceBundle-ZWProgressHUD-ZWProgressHUD-Info.plist */,
-				649CC3915F631CE936220D36EF89B19B /* ZWProgressHUD.modulemap */,
-				71C46619B04B0CF7183AD2D0853373EA /* ZWProgressHUD-dummy.m */,
-				7EF421D98AD050DF62A0CC0D80085CAB /* ZWProgressHUD-Info.plist */,
-				C3F18231074AD72B3042A96A0975760A /* ZWProgressHUD-prefix.pch */,
-				6924DA43DF71798453CA26B6282C5983 /* ZWProgressHUD-umbrella.h */,
-				BC0F5811025B87DB0FB920BCCE180BC5 /* ZWProgressHUD.debug.xcconfig */,
-				F67F9424949E291D1E9884523A63555E /* ZWProgressHUD.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/ZWProgressHUD";
+			name = HUD;
+			path = ZWProgressHUD/Assets/HUD;
 			sourceTree = "<group>";
 		};
 		3F242479102E24C5847AB040CB8095A8 /* Pods */ = {
@@ -289,30 +253,6 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		48856FD9ABB6E287F09024C16F3049C1 /* Loading */ = {
-			isa = PBXGroup;
-			children = (
-				E310ACD40D7713E5A81644EC0495D2B7 /* loading_10@2x.png */,
-				39D75FD05C2A80EB79FB3D8113ECBD1E /* loading_11@2x.png */,
-				953AA4830D58AAE90B897F81C0BB810B /* loading_12@2x.png */,
-				C4ABB96084F3624CAA0FC51F9C06F9AF /* loading_13@2x.png */,
-				477D107442CD81C10F7167040F96F812 /* loading_14@2x.png */,
-				696830E77C8494E69D24CC0C36BAEC1E /* loading_15@2x.png */,
-				7BFE05BB03DD5C14897F2DC6247A51F5 /* loading_16@2x.png */,
-				258E750703F504EB53A0372E8148A8D0 /* loading_1@2x.png */,
-				45E965534461ED7CB11D1C173EB8D349 /* loading_2@2x.png */,
-				FB2718287E7B3B5F9A70FF47A971EF5F /* loading_3@2x.png */,
-				14C7F54EBF2843D7551CC2A00215646A /* loading_4@2x.png */,
-				0DFB5153AD877DC48097530F419A4A7D /* loading_5@2x.png */,
-				A89C7AC90C012AD4F6E485321F9B4A21 /* loading_6@2x.png */,
-				D732B0A902929EA7E9B3F063BBFF9B15 /* loading_7@2x.png */,
-				FAD4D2048D5BCD5BAF54AA5C0194A0F9 /* loading_8@2x.png */,
-				D30F4FB2D1034CF7C731C78034B3D7AE /* loading_9@2x.png */,
-			);
-			name = Loading;
-			path = ZWProgressHUD/Assets/Loading;
-			sourceTree = "<group>";
-		};
 		4D6691D8CB3D493006A8661C7CFED31A /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -321,6 +261,22 @@
 				51AB40693B18F443F75126966ED13E47 /* QuartzCore.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		601CF72207A02F92EC840C99B0D4DDEE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				587D8F0A2D43774470EE67162FFE5618 /* ResourceBundle-ZWProgressHUD-ZWProgressHUD-Info.plist */,
+				CF38D472A143517B59515F7E820E53CC /* ZWProgressHUD.modulemap */,
+				FA203C0A3314602324B3635535A8602F /* ZWProgressHUD-dummy.m */,
+				6741A1EB4E1AC3E9934EAEAA73E02C62 /* ZWProgressHUD-Info.plist */,
+				178F91AAB9331AA73ACC566C31B64F4A /* ZWProgressHUD-prefix.pch */,
+				7D73477A8921BF96BD96F482E64FC2AD /* ZWProgressHUD-umbrella.h */,
+				711FA91E7DEAC4644E269C9469B920F5 /* ZWProgressHUD.debug.xcconfig */,
+				6166DC5298F26D1A78B1369076D9A8E4 /* ZWProgressHUD.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ZWProgressHUD";
 			sourceTree = "<group>";
 		};
 		68E1D325223569DF882B61DA1F5CF86C /* Pods-ZWProgressHUD_Tests */ = {
@@ -339,16 +295,6 @@
 			path = "Target Support Files/Pods-ZWProgressHUD_Tests";
 			sourceTree = "<group>";
 		};
-		7940126493FCD448DD38E3D4D7869B5E /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				E0A56B8ACE5302673FF5413310CA4B84 /* LICENSE */,
-				BB114FD9CA55F4FCB39CFE6ADFFE5BB6 /* README.md */,
-				F1217B3EFA38731EBFF722B016A391DB /* ZWProgressHUD.podspec */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
 		7DA15A24060A7C02AA2887C73FB2018D /* MBProgressHUD */ = {
 			isa = PBXGroup;
 			children = (
@@ -358,6 +304,20 @@
 			);
 			name = MBProgressHUD;
 			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+		9EF46B9EE0CA603D8B8AFBFF1999621E /* ZWProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				65CC26A2F8EA61382F33F05AF3C890B8 /* ZWProgressHUD.h */,
+				8D625404CB240071C0041C754F550F19 /* ZWProgressHUD.m */,
+				229D54B90C881D40252FD3BED16953DC /* HUD */,
+				F39B01C3F336177606A518A25D184441 /* Loading */,
+				FE7BF1564C1354BD74B0F5B2A063EB58 /* Pod */,
+				601CF72207A02F92EC840C99B0D4DDEE /* Support Files */,
+			);
+			name = ZWProgressHUD;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		A36DFC02E5ED1ACC986DA7B9DE40EE48 /* Products */ = {
@@ -381,14 +341,6 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		B477225906323400C52EAB2B0E1975A1 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				2D70CB065B5732B85BA962E9A1D98B86 /* ZWProgressHUD */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
 		C86A493F744575B77BC85AB9B143DAC2 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -408,12 +360,54 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				B477225906323400C52EAB2B0E1975A1 /* Development Pods */,
+				EC05647792BC28D6C2D41884497F8D18 /* Development Pods */,
 				03C5C200A0787E300053CFA8F53CA094 /* Frameworks */,
 				3F242479102E24C5847AB040CB8095A8 /* Pods */,
 				A36DFC02E5ED1ACC986DA7B9DE40EE48 /* Products */,
 				A3A5CA507E9A2DEB94D9ABA0531EC51F /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		EC05647792BC28D6C2D41884497F8D18 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9EF46B9EE0CA603D8B8AFBFF1999621E /* ZWProgressHUD */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		F39B01C3F336177606A518A25D184441 /* Loading */ = {
+			isa = PBXGroup;
+			children = (
+				C98D2FB8D20C3704E32C2A7317EF1DB3 /* loading_10@2x.png */,
+				DC49344956C37D34B4C6F1A83D10BDBD /* loading_11@2x.png */,
+				3B39A49AC9DE58807E69FE32A11F8FDB /* loading_12@2x.png */,
+				9931F9B6B6E647A013F4F1A2F39266A1 /* loading_13@2x.png */,
+				C9786AC9F5456BF5316480CE925A0F2C /* loading_14@2x.png */,
+				0494D17F4710B70E1FC1AA4D409E3F77 /* loading_15@2x.png */,
+				78C3147D2FC171A5128452A6DFBBE252 /* loading_16@2x.png */,
+				D076C9FEF84B0B131B1FDCEF7E546753 /* loading_1@2x.png */,
+				49DDC3C925CD4C3536F859CE151D5D82 /* loading_2@2x.png */,
+				BB091C6DF4BF6D3291020956AD023FC1 /* loading_3@2x.png */,
+				05D56C3E1063C4E90A71458BF480D0C0 /* loading_4@2x.png */,
+				F551698590CEBB36E3AED662CC23D3DD /* loading_5@2x.png */,
+				EEFE514E17EA39573A8603D5DF9784F1 /* loading_6@2x.png */,
+				3A2ECED585B2241F7750E0C6F52EBE0A /* loading_7@2x.png */,
+				88B995DD0E469C2ABE2535864CA2B192 /* loading_8@2x.png */,
+				DB21755AA14B1ECA5080FD5D2C990D82 /* loading_9@2x.png */,
+			);
+			name = Loading;
+			path = ZWProgressHUD/Assets/Loading;
+			sourceTree = "<group>";
+		};
+		FE7BF1564C1354BD74B0F5B2A063EB58 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				BF712AA1DEDDE6C388CF876A60FB11E4 /* LICENSE */,
+				CB0FAB061549BBB419B606BFC6B299CA /* README.md */,
+				AA10F477C3E47F71F857A6DFEFA5BB03 /* ZWProgressHUD.podspec */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -468,8 +462,8 @@
 			buildRules = (
 			);
 			dependencies = (
-				CDD7CCAE0FCEEA8591E598D48D32BD28 /* PBXTargetDependency */,
-				5D4532D99A5031056D6F898100A29644 /* PBXTargetDependency */,
+				8AF33EE5038E877BB42C58C08FDDBA77 /* PBXTargetDependency */,
+				4A750D8B159D8AC981FB23A58535AB2C /* PBXTargetDependency */,
 			);
 			name = ZWProgressHUD;
 			productName = ZWProgressHUD;
@@ -488,8 +482,8 @@
 			buildRules = (
 			);
 			dependencies = (
-				492AD70B913F5487086535E33AF58278 /* PBXTargetDependency */,
-				B1D9494570848A497ED1E6D2824409F7 /* PBXTargetDependency */,
+				330599E13AA21270E4AB10020B1B9F0E /* PBXTargetDependency */,
+				38C54BDBF96AEE2FC86D3FB6CE37A257 /* PBXTargetDependency */,
 			);
 			name = "Pods-ZWProgressHUD_Example";
 			productName = Pods_ZWProgressHUD_Example;
@@ -526,7 +520,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				ACD7DCE526666A948B1589F7F417DF4D /* PBXTargetDependency */,
+				DC31A77E76E059451C22DD78051AA87D /* PBXTargetDependency */,
 			);
 			name = "Pods-ZWProgressHUD_Tests";
 			productName = Pods_ZWProgressHUD_Tests;
@@ -535,11 +529,11 @@
 		};
 		E5950D6A031A7AC21FA7CA5FD623A401 /* ZWProgressHUD-ZWProgressHUD */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 132A98C67CBB6DA1303E8581A38554A0 /* Build configuration list for PBXNativeTarget "ZWProgressHUD-ZWProgressHUD" */;
+			buildConfigurationList = 0C9EED1F84A995E04E9F4CE75C7C3111 /* Build configuration list for PBXNativeTarget "ZWProgressHUD-ZWProgressHUD" */;
 			buildPhases = (
-				552B2E86A9E67837BD62701583D1281D /* Sources */,
-				5C50969E24CF31852249579D4775868E /* Frameworks */,
-				D3D0E83C2625B9AD7DB358CB2226EEE6 /* Resources */,
+				05D0A77BE0611202A4FA81908D8784BA /* Sources */,
+				7109F955A68F97F1FC9B78431DD9C939 /* Frameworks */,
+				358CDAECF3FF7FEDC8C7FE2FD61896FE /* Resources */,
 			);
 			buildRules = (
 			);
@@ -582,6 +576,35 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		358CDAECF3FF7FEDC8C7FE2FD61896FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF65E30D959C4C330EA5B3BBBAF6C144 /* hud_failure@2x.png in Resources */,
+				E93D67E2E33AB9E6DC34BB99A851A427 /* hud_failure@3x.png in Resources */,
+				6EBFC531B01E8775CAAFF1F17B60650B /* hud_success@2x.png in Resources */,
+				C187173CCC76E6C9E1701494A9AF8D6F /* hud_success@3x.png in Resources */,
+				AE74DB756A99EC8CAFDC01F50E658D4D /* hud_warning@2x.png in Resources */,
+				8E2EE927D2327794F627AAEF28B8A7AA /* hud_warning@3x.png in Resources */,
+				8BDC84FCE7678BF7AEB3EE7246D7CDB0 /* loading_10@2x.png in Resources */,
+				DF705978DFEFA9AC6BDDF4D8D6274260 /* loading_11@2x.png in Resources */,
+				F63634A572527E0C7A23AF5F0CA9EAD0 /* loading_12@2x.png in Resources */,
+				C2B243C47D92ACCC232F051A5A76E6EC /* loading_13@2x.png in Resources */,
+				6A5903A637D6C560FDA82A4BD9F1D2F0 /* loading_14@2x.png in Resources */,
+				1F0343D1328FC24C8AE7B1351F81B83D /* loading_15@2x.png in Resources */,
+				CFB5D913352EC2BECD05754C2C13E335 /* loading_16@2x.png in Resources */,
+				6775193328C1DD500FC470FDC46977EB /* loading_1@2x.png in Resources */,
+				37FFD3081920BA410A133DD68BFBF0FE /* loading_2@2x.png in Resources */,
+				BCDB66D60FD844EFEE9D07C8B8A66C56 /* loading_3@2x.png in Resources */,
+				B33F9CAD5E2A45C2F953A51AE845B44E /* loading_4@2x.png in Resources */,
+				76B6C891A7991B3B681822D76045EC13 /* loading_5@2x.png in Resources */,
+				2FD586E850558DDB35D59D4BFABEAAE7 /* loading_6@2x.png in Resources */,
+				5E5E779AC46101A86F34CFE867647D7D /* loading_7@2x.png in Resources */,
+				2CFC6304B371FECF1CE5402EBEF4EBA6 /* loading_8@2x.png in Resources */,
+				777506B8D1FD039BB0EEDCEA294BD372 /* loading_9@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		5B38D1A2D0A2D6188FDF6165B7811401 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -611,53 +634,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D3D0E83C2625B9AD7DB358CB2226EEE6 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				93C18EAD158131EC97451772F628CDA3 /* HUD in Resources */,
-				E93AC8EA8AB208ECFD2F7279603F053B /* hud_failure@2x.png in Resources */,
-				E3E89393DE451D4C3294E5C3A292BF9E /* hud_failure@3x.png in Resources */,
-				8CD5FA4350B3DC3E305D040F9ADB95EB /* hud_success@2x.png in Resources */,
-				CD8575C934BD2C6F1723D4842ACAC8A9 /* hud_success@3x.png in Resources */,
-				2B159CF337674A6F7FB1BF361E035510 /* hud_warning@2x.png in Resources */,
-				0A9FE213774D934FA45629AE09834B24 /* hud_warning@3x.png in Resources */,
-				EAA5F0F0E7235232517223C8E213AFF9 /* Loading in Resources */,
-				F3A14F1B7A96CCF76F2D5FDD0D351F17 /* loading_10@2x.png in Resources */,
-				4F8A3841917127F51ABC07FE20C80A26 /* loading_11@2x.png in Resources */,
-				C6BE088DFD4C326602B4739D27AF6591 /* loading_12@2x.png in Resources */,
-				B101CF791A138B7C5F59DA5BCFAD8B65 /* loading_13@2x.png in Resources */,
-				E8C0C6E738C95B12B283AD0735E2CB35 /* loading_14@2x.png in Resources */,
-				32CBB9A58A337F53CAC52CD28D2DC0A0 /* loading_15@2x.png in Resources */,
-				E8D54D4BEDA6B143AEA9D86FC65BA77F /* loading_16@2x.png in Resources */,
-				1336016CC37CB8E559202350D0991BE0 /* loading_1@2x.png in Resources */,
-				D18001FB5BF9831CCFFB37E89A79BAD5 /* loading_2@2x.png in Resources */,
-				AFA3F8B4CAC3AA1B79CFCB2ECF154E3B /* loading_3@2x.png in Resources */,
-				82521BF6001AFFB2D820CEAA1AB4666F /* loading_4@2x.png in Resources */,
-				1BA0C96F7CAB3C3EB16F2BDD0F5CB89A /* loading_5@2x.png in Resources */,
-				8B010B86E05C65FB26EF03BE7BF9EF75 /* loading_6@2x.png in Resources */,
-				72339481288B929F37FCC34A0542BA86 /* loading_7@2x.png in Resources */,
-				BEA1A917533B0E326621F1DFA1CFC08D /* loading_8@2x.png in Resources */,
-				D5B87A5F785A576A862BDF0F0A16C819 /* loading_9@2x.png in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		05D0A77BE0611202A4FA81908D8784BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		3F44E86745047F0D41DAB17DCE886E15 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				1774D5E4900A675C71889243535CDA38 /* ZWProgressHUD.m in Sources */,
 				A7463E2A5708CCEF6565355BC44D03C6 /* ZWProgressHUD-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		552B2E86A9E67837BD62701583D1281D /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -689,35 +681,35 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		492AD70B913F5487086535E33AF58278 /* PBXTargetDependency */ = {
+		330599E13AA21270E4AB10020B1B9F0E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = MBProgressHUD;
 			target = 82B0A41D3031FF27D78E17B0A9A46FB0 /* MBProgressHUD */;
-			targetProxy = 9EA2F1C3636DF5FCA776A16C57622D26 /* PBXContainerItemProxy */;
+			targetProxy = 5FFC0C1E002617A6065984B9FFCCB7B7 /* PBXContainerItemProxy */;
 		};
-		5D4532D99A5031056D6F898100A29644 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "ZWProgressHUD-ZWProgressHUD";
-			target = E5950D6A031A7AC21FA7CA5FD623A401 /* ZWProgressHUD-ZWProgressHUD */;
-			targetProxy = B6238E21370347E66F248360A2CFDCE4 /* PBXContainerItemProxy */;
-		};
-		ACD7DCE526666A948B1589F7F417DF4D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-ZWProgressHUD_Example";
-			target = 740661DFF8AE1ECD68332F399FC794CF /* Pods-ZWProgressHUD_Example */;
-			targetProxy = 4B63BAF86FE216381C4036BA8E5EB4FC /* PBXContainerItemProxy */;
-		};
-		B1D9494570848A497ED1E6D2824409F7 /* PBXTargetDependency */ = {
+		38C54BDBF96AEE2FC86D3FB6CE37A257 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = ZWProgressHUD;
 			target = 245CE2F88B214292903665423317DF79 /* ZWProgressHUD */;
-			targetProxy = 1CFA18CFFF567B5F3E9BF159F8479163 /* PBXContainerItemProxy */;
+			targetProxy = CBD6D2A5C3167D2480AF630EFB29FE6B /* PBXContainerItemProxy */;
 		};
-		CDD7CCAE0FCEEA8591E598D48D32BD28 /* PBXTargetDependency */ = {
+		4A750D8B159D8AC981FB23A58535AB2C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "ZWProgressHUD-ZWProgressHUD";
+			target = E5950D6A031A7AC21FA7CA5FD623A401 /* ZWProgressHUD-ZWProgressHUD */;
+			targetProxy = 078CB2335F81389D23E620CD2838A928 /* PBXContainerItemProxy */;
+		};
+		8AF33EE5038E877BB42C58C08FDDBA77 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = MBProgressHUD;
 			target = 82B0A41D3031FF27D78E17B0A9A46FB0 /* MBProgressHUD */;
-			targetProxy = F3CEB708601F74E01A9E6EF74D8A5DB5 /* PBXContainerItemProxy */;
+			targetProxy = C7821C4F298AB3FECE3F1EE90E96241F /* PBXContainerItemProxy */;
+		};
+		DC31A77E76E059451C22DD78051AA87D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-ZWProgressHUD_Example";
+			target = 740661DFF8AE1ECD68332F399FC794CF /* Pods-ZWProgressHUD_Example */;
+			targetProxy = DC2D6DBA14FCE00A8FD3D876DF7FD7A2 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -783,9 +775,25 @@
 			};
 			name = Debug;
 		};
+		360D172425E00CB6CDC616C2B5D761A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 711FA91E7DEAC4644E269C9469B920F5 /* ZWProgressHUD.debug.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/ZWProgressHUD";
+				IBSC_MODULE = ZWProgressHUD;
+				INFOPLIST_FILE = "Target Support Files/ZWProgressHUD/ResourceBundle-ZWProgressHUD-ZWProgressHUD-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PRODUCT_NAME = ZWProgressHUD;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
 		3D1CC20852B6A5C4C6794ACB3CF021A1 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F67F9424949E291D1E9884523A63555E /* ZWProgressHUD.release.xcconfig */;
+			baseConfigurationReference = 6166DC5298F26D1A78B1369076D9A8E4 /* ZWProgressHUD.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -815,9 +823,9 @@
 			};
 			name = Release;
 		};
-		535F139A12A4C5571B6DB8EAA6A21FF3 /* Release */ = {
+		3F94FC78E532D3AE41A01B040FBAF54B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F67F9424949E291D1E9884523A63555E /* ZWProgressHUD.release.xcconfig */;
+			baseConfigurationReference = 6166DC5298F26D1A78B1369076D9A8E4 /* ZWProgressHUD.release.xcconfig */;
 			buildSettings = {
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/ZWProgressHUD";
 				IBSC_MODULE = ZWProgressHUD;
@@ -830,22 +838,6 @@
 				WRAPPER_EXTENSION = bundle;
 			};
 			name = Release;
-		};
-		5801CD146F1A78C86854B28AD6A51453 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = BC0F5811025B87DB0FB920BCCE180BC5 /* ZWProgressHUD.debug.xcconfig */;
-			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/ZWProgressHUD";
-				IBSC_MODULE = ZWProgressHUD;
-				INFOPLIST_FILE = "Target Support Files/ZWProgressHUD/ResourceBundle-ZWProgressHUD-ZWProgressHUD-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				PRODUCT_NAME = ZWProgressHUD;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
 		};
 		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -911,7 +903,7 @@
 		};
 		837DD9FACCECC860C15FE64AB043439B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BC0F5811025B87DB0FB920BCCE180BC5 /* ZWProgressHUD.debug.xcconfig */;
+			baseConfigurationReference = 711FA91E7DEAC4644E269C9469B920F5 /* ZWProgressHUD.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1143,11 +1135,11 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		132A98C67CBB6DA1303E8581A38554A0 /* Build configuration list for PBXNativeTarget "ZWProgressHUD-ZWProgressHUD" */ = {
+		0C9EED1F84A995E04E9F4CE75C7C3111 /* Build configuration list for PBXNativeTarget "ZWProgressHUD-ZWProgressHUD" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5801CD146F1A78C86854B28AD6A51453 /* Debug */,
-				535F139A12A4C5571B6DB8EAA6A21FF3 /* Release */,
+				360D172425E00CB6CDC616C2B5D761A8 /* Debug */,
+				3F94FC78E532D3AE41A01B040FBAF54B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
