@@ -21,7 +21,7 @@
   "source_files": "ZWProgressHUD/Classes/**/*",
   "resource_bundles": {
     "ZWProgressHUD": [
-      "ZWProgressHUD/Assets/*"
+      "ZWProgressHUD/Assets/**/*"
     ]
   },
   "dependencies": {
